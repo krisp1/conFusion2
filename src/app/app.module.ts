@@ -21,7 +21,6 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserAnimationsModule,
     MatToolbarModule,
     FlexLayoutModule,
-    MatListModule,
     MatGridListModule,
     MatCardModule,
     MatButtonModule
