@@ -13,7 +13,7 @@ export class MenuComponent implements OnInit {
     {
       id: '0',
       name: 'Uthappizza',
-      image: '/assets/images/uthappizza.png'.
+      image: '/assets/images/uthappizza.png',
       category: 'mains',
       featured: true,
       label: 'Hot',
@@ -21,7 +21,7 @@ export class MenuComponent implements OnInit {
       // tslint:disable-next-line:max-line-length
       description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'
     },
-      {
+    {
       id: '1',
       name: 'Zucchipakoda',
       image: '/assets/images/zucchipakoda.png',
@@ -52,12 +52,7 @@ export class MenuComponent implements OnInit {
       description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
     }
    ];
-    }
-
-
-
-
-
+  
   constructor() { }
 
   ngOnInit() {
